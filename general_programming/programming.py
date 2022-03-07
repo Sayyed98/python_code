@@ -21,6 +21,7 @@
 #     print("this is not a palindrome number")
 
 """fibonacci series"""
+# fibo=int(input("enter a number"))
 # def fibonacc(num):
 #     a=0
 #     b=1
@@ -31,7 +32,7 @@
 #         a=b
 #         b=c
 #         print(c)
-# fibonacc(9)
+# fibonacc(fibo)
 
 
 """armstrong number"""
@@ -109,6 +110,28 @@
 #     print(str2[len(str2)//2])
 
 """reversing a string without using in-built function"""
-str=(input("enter a string"))
-for i in range(len(str)-1,-1,-1):
-    print(str[i],end="")
+# str=(input("enter a string"))
+# for i in range(len(str)-1,-1,-1):
+#     print(str[i],end="")
+
+""" pattern programmin"""
+
+
+# n=int(input("enter a number"))
+# for i in range(1,n):
+#     for  j in range(i):
+#         print("*" ,end="")
+#     print('\r')
+
+
+n=7
+m=0
+for i in range(0,n+1):
+    for j in range(0,(n-i)+1):
+        print(end="")
+    m=m-1
+    for j in range(0,2*i-1):
+        print("*",end="")
+        m=m+1
+    m=0
+    print('\r')
