@@ -128,3 +128,5 @@
 #     if (input_string[i]==input_char):
 #         count=count+1
 # print(count)
+# 
+# #this is comment through file handling

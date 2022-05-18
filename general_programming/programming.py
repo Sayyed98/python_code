@@ -114,6 +114,7 @@
 # for i in range(len(str)-1,-1,-1):
 #     print(str[i],end="")
 
+
 """ pattern programmin"""
 
 
@@ -124,14 +125,93 @@
 #     print('\r')
 
 
-n=7
-m=0
-for i in range(0,n+1):
-    for j in range(0,(n-i)+1):
-        print(end="")
-    m=m-1
-    for j in range(0,2*i-1):
-        print("*",end="")
-        m=m+1
-    m=0
-    print('\r')
+# n=7
+# m=0
+# for i in range(0,n+1):
+#     for j in range(0,(n-i)+1):
+#         print(end="")
+#     m=m-1
+#     for j in range(0,2*i-1):
+#         print("*",end="")
+#         m=m+1
+#     m=0
+#     print('\r')
+
+
+# def factorial(nnum):
+#     if nnum<=1:
+#         return nnum
+#     else:
+#         return nnum*factorial(nnum-1)
+# print(factorial(6))
+
+
+# def fibonacci(num):
+#     if num==0:
+#         return num
+#     elif num==1:
+#         return num
+#     else:
+#         return fibonacci(num-1)+fibonacci(num-2)
+# print(fibonacci(8))
+
+
+
+# var=11
+# if var>1:
+#     for i in range(2,(var//2)+1):
+#         if var%i==0:
+#             print("this is not prime number")
+#             break
+#     else: 
+#         print("this is prime number")
+# else:
+#     print("this is not prime number")
+
+
+# strin="my name is mohd hujaifa"
+# str=strin.split()
+# acd=list(reversed(str))
+# print(" ".join(acd))
+
+
+
+# var=121
+# reverse=0
+# temp=var
+# while temp>0:
+#     digit=temp%10
+#     reverse=reverse*10+digit
+#     temp=temp//10
+# if var==reverse:
+#     print("this is palindrome number")
+# else:
+#     print("this is not palindrome number")
+
+
+# string="Hujaifaq"
+# if len(string)%2==0:
+#     print(string[len(string)//2-1]+string[len(string)//2])    
+# else:
+#     print(string[len(string)//2])
+        
+
+# stri="sayyed"
+# for i in range(len(stri)-1,-1,-1):
+#     print(stri[i],end="")
+
+# string=input("enter a string")
+# char=input('enter a characater')
+# a=0
+# count=0
+# for i in range(len(string)):
+#     if (string[i]==char):
+#         count=count+1
+# print(count)
+
+
+abc="MOhd hujaifa saidaha urraon allahabasd"
+word=abc.split()
+reversing=list(reversed(word))
+joining=" ".join(reversing)
+print(joining)    

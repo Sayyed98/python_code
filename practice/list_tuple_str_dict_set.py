@@ -69,28 +69,29 @@
 
 """set"""
 
-even=set([2,4,6,8,10,12,14,16,18,20])
-print(even)
+# even=set([2,4,6,8,10,12,14,16,18,20])
+# print(even)
 
-print(type(even))
+# print(type(even))
 
-odd=set([1,3,5,7,9,11,13,15,17,19,20])
+# odd=set([1,3,5,7,9,11,13,15,17,19,20])
 
-abc=even.union (odd)
-print(abc)
+# abc=even.union (odd)
+# print(abc)
 
-intersect=even.intersection(odd)
-print(intersect)
+# intersect=even.intersection(odd)
+# print(intersect)
 
-diff=even.difference(odd)
-print(diff)
+# diff=even.difference(odd)
+# print(diff)
 
-convert1=list(even)
-print(convert1)
+# convert1=list(even)
+# print(convert1)
 
-convert2=tuple(odd)
-print(convert2)
+# convert2=tuple(odd)
+# print(convert2)
 
-convert3=','.join(map(str,even))
-print(convert3)
+# convert3=','.join(map(str,even))
+# print(convert3)
 
+ 
